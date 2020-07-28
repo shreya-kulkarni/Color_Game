@@ -51,7 +51,7 @@ function setupSquares() {
 				changeColors(pickedColor);
 			}
 			else {
-				this.style.backgroundColor = "#232323";
+				this.style.backgroundColor = 'white';
 				messageDisplay.textContent = "try again";
 			}
 		});
